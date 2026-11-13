@@ -16,3 +16,7 @@ function register() {
     document.getElementById("email").value = "";  
     document.getElementById("password").value = "";
 }
+function register(){
+
+}
+
