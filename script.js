@@ -16,7 +16,20 @@ function register() {
     document.getElementById("email").value = "";  
     document.getElementById("password").value = "";
 }
+<<<<<<< HEAD
 function register(){
 
+=======
+function search() {
+    let name = document.getElementById("search").value;
+
+    if (name === "") {
+        document.getElementById("msg").innerHTML = "Enter student name";
+        return;
+    }
+
+    document.getElementById("msg").innerHTML =
+        "Searching for: " + name;
+>>>>>>> search
 }
 
