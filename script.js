@@ -16,10 +16,10 @@ function register() {
     document.getElementById("email").value = "";  
     document.getElementById("password").value = "";
 }
-<<<<<<< HEAD
-function register(){
 
-=======
+function register(){
+}
+
 function search() {
     let name = document.getElementById("search").value;
 
@@ -30,6 +30,6 @@ function search() {
 
     document.getElementById("msg").innerHTML =
         "Searching for: " + name;
->>>>>>> search
+
 }
 
